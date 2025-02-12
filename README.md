@@ -18,6 +18,8 @@ The **Movie Service** is a microservice within the Movie Reservation System resp
 ## API Endpoints
 
 ### Movie Management
+
+#### Movie Endpoints
 | Method | Endpoint | Description |
 |--------|---------|-------------|
 | `GET` | `/movies` | Retrieve all movies |
@@ -26,6 +28,9 @@ The **Movie Service** is a microservice within the Movie Reservation System resp
 | `POST` | `/movies/create` | Add a new movie |
 | `PATCH` | `/movies/update/{id}` | Update movie by ID |
 
+#### Genre Endpoints
+| Method | Endpoint | Description |
+|--------|---------|-------------|
 | `GET` | `/genres` | Retrieve all genres |
 | `GET` | `/genres/{id}` | Retrieve genre by ID |
 | `POST` | `/genres/create` | Create genre |
